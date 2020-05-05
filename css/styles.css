@@ -1,5 +1,5 @@
 body {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 }
 
 #title {
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 	font-size: 3.5rem;
 	line-height: 1.5;
 	font-weight: 1000;
@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-	font-family: "Montserrat-Bold"
+	font-family: "Montserrat-Bold";
 	font-weight: bold;
 	font-size: 3rem;
 	line-height: 1.5;
@@ -134,4 +134,15 @@ p {
 
 .pricing-column {
 	padding: 3% 2%
+}
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
 }

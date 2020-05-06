@@ -15,19 +15,22 @@ h1 {
 	font-family: "Montserrat";
 	font-size: 3.5rem;
 	line-height: 1.5;
-	font-weight: 1000;
+	font-weight: 900;
 
 }
 
 h2 {
-	font-family: "Montserrat-Bold";
-	font-weight: bold;
+	font-family: "Montserrat";
+	font-weight: 700;
 	font-size: 3rem;
 	line-height: 1.5;
 }
 
 h3 {
-	font-weight: 1000;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 3.5rem;
+	/* font-weight: 1000; */
 }
 
 p {
@@ -142,11 +145,32 @@ p {
 	background-color: #ff4c68;
 	text-align: center;
 	color: white;
-	padding-top: 10rem;
-	font-family: "Montserrat Black";
+	padding: 7% 15%;
+}
+
+.cta-heading {
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5rem;
 }
 
 /* Footer */
+
+#footer {
+	padding: 7% 15%;
+	text-align: center;
+	background-color: white;
+}
+
+.socials svg {
+	margin: 20px 10px;
+}
+
+.socials {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
 
 
 

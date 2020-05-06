@@ -136,6 +136,24 @@ p {
 	padding: 3% 2%
 }
 
+/* Call to Action */
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	color: white;
+	padding-top: 10rem;
+	font-family: "Montserrat Black";
+}
+
+/* Footer */
+
+
+
+
+
+
+
 @media (max-width: 1028px) {
 	#title {
 		text-align: center;
